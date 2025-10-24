@@ -189,6 +189,9 @@ public class app {
                     System.out.println("Saved Dealership to csv file!");
                     DealershipFileManager.saveDealership(currentDealership);
                     break;
+                case "99":
+                    System.exit(0);
+                    break;
                 default:
                     System.out.println("Invalid input.");
             }
